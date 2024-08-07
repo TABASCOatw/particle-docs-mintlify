@@ -1,0 +1,28 @@
+---
+title: "Social Authentication Consent"
+---
+
+For some social platforms, specifically Google, Discord, and Microsoft, you can configure the timing of the consent page displayed to users during the login process. Generally, three options are provided:
+
+    1.	`none`: Do not display any authentication or consent screens.
+    2.	`consent`: Prompt the user for consent.
+    3.	`select_account`: Prompt the user to select an account.
+
+Our SDK [Particle Auth](/guides/integrations/waas/auth) does not pass this parameter by default, which corresponds to the `none` process above. After the user authorizes, they won’t need to choose next time; if you want the user to choose each time, you need to configure it to `select_account`. The configuration items for the SDK on different platforms are as follows:
+
+    1.	Web
+
+```typescript
+// Connect with a specified social login method.
+
+const userInfo = await connect({
+  socialType: "google",
+  prompt: "select_account", // Optional, only google, discord and microsoft support it.
+});
+```
+
+2. Android: `prompt` parameter
+3. iOS: `socialLoginPrompt` parameter
+4. ReactNative: `SocialLoginPrompt` parameter
+5. Unity: `SocialLoginPrompt` parameter
+6. Flutter: `SocialLoginPrompt` parameter

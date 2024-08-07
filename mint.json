@@ -1,0 +1,709 @@
+{
+  "name": "Particle Network docs",
+  "logo": {
+    "dark": "/logo/dark.png",
+    "light": "/logo/dark.png"
+  },
+  "favicon": "/favicon.png",
+  "colors": {
+    "primary": "#9d32de",
+    "light": "#e44be0",
+    "dark": "#9d32de"
+  },
+  "feedback": {
+    "thumbsRating": true,
+    "raiseIssue": true,
+    "suggestEdit": true
+  },
+  "analytics": {
+    "ga4": {
+      "measurementId": "G-LJLDQ1H9MM"
+    }
+  },
+  "topbarCtaButton": {
+    "name": "Dashboard",
+    "url": "https://dashboard.particle.network/"
+  },
+  "repository": {
+    "url": "https://github.com/Particle-Network/particle-docs-mintlify"
+  },
+  "topbarLinks": [
+    {
+      "name": "Demo",
+      "url": "https://demo.particle.network/"
+    },
+    {
+      "name": "Blog",
+      "url": "https://blog.particle.network/"
+    },
+    {
+      "name": "GitHub",
+      "url": "https://github.com/Particle-Network"
+    }
+  ],
+  "primaryTab": {
+    "name": "Introduction"
+  },
+  "tabs": [
+    {
+      "name": "Guides",
+      "url": "guides"
+    },
+    {
+      "name": "APIs & SDKs",
+      "url": "api-reference"
+    },
+    {
+      "name": "Changelog",
+      "url": "changelog"
+    },
+    {
+      "name": "Schedule a Demo",
+      "url": "https://calendly.com/particle-network/30min"
+    }
+  ],
+  "anchors": [
+    {
+      "name": "Particle Network",
+      "icon": "house-chimney-window",
+      "url": "https://particle.network/"
+    },
+    {
+      "name": "Discord",
+      "icon": "discord",
+      "url": "https://discord.com/invite/2y44qr6CR2"
+    },
+    {
+      "name": "GitHub",
+      "icon": "github",
+      "url": "https://github.com/Particle-Network"
+    },
+    {
+      "name": "Demo",
+      "icon": "window",
+      "url": "https://demo.particle.network/"
+    }
+  ],
+  "navigation": [
+    {
+      "group": "OVERVIEW",
+      "pages": [
+        "landing/introduction",
+        "landing/what-is-particle-network",
+        "landing/realized-vision"
+      ]
+    },
+    {
+      "group": "TECHNOLOGY",
+      "pages": [
+        {
+          "group": "Wallet Abstraction",
+          "pages": [
+            {
+              "group": "Smart Wallet-as-a-Service",
+              "pages": [
+                "landing/wallet-abstraction/waas/overview",
+                "landing/wallet-abstraction/waas/mpc-tss",
+                "landing/wallet-abstraction/waas/bundler",
+                "landing/wallet-abstraction/waas/omni-paymaster",
+                "landing/wallet-abstraction/waas/differentiators"
+              ]
+            },
+            "landing/wallet-abstraction/btc-connect"
+          ]
+        },
+        {
+          "group": "Coming Soon: Modular L1",
+          "pages": [
+            "landing/modular-l1/introduction",
+            "landing/modular-l1/universal-accounts",
+            "landing/modular-l1/universal-liquidity",
+            "landing/modular-l1/universal-gas"
+          ]
+        }
+      ]
+    },
+    {
+      "group": "MISCELLANEOUS",
+      "pages": ["landing/more/audits", "landing/more/assets"]
+    },
+    {
+      "group": "TUTORIALS & DEMOS",
+      "pages": [
+        "landing/tutorials-and-demos/list",
+        "landing/tutorials-and-demos/repositories",
+        "landing/tutorials-and-demos/videos"
+      ]
+    },
+    {
+      "group": "LEGAL",
+      "pages": [
+        "landing/tos/license-agreement",
+        "landing/tos/privacy-policy",
+        "landing/tos/terms-of-use"
+      ]
+    },
+    {
+      "group": "GETTING STARTED",
+      "pages": [
+        "guides/overview", 
+        "guides/network-coverage", 
+        "guides/dashboard" ,
+        {
+          "group": "Platform Coverage",
+          "pages": [
+            "guides/integrations/platform/web",
+            "guides/integrations/platform/android",
+            "guides/integrations/platform/ios",
+            "guides/integrations/platform/unity",
+            "guides/integrations/platform/unreal",
+            "guides/integrations/platform/cocos",
+            "guides/integrations/platform/flutter",
+            "guides/integrations/platform/react"
+          ]
+        }
+      ]
+    },
+    {
+      "group": "WALLET-AS-A-SERVICE",
+      "pages": [
+        "guides/wallet-as-a-service/waas/understanding-waas",
+        {
+          "group": "Quickstarts",
+          "pages": [
+            "guides/wallet-as-a-service/waas/web-quickstart",
+            "guides/wallet-as-a-service/waas/mobile-quickstart"
+          ]
+        },
+        {
+          "group": "Product Overviews",
+          "pages": [
+            "guides/integrations/waas/auth",
+            "guides/integrations/waas/wallet",
+            "guides/integrations/waas/connect"
+          ]
+        },
+        {
+          "group": "Connection Kits",
+          "pages": [
+            "guides/wallet-as-a-service/connection-kits/particle-connect",
+            "guides/wallet-as-a-service/connection-kits/rainbow",
+            "guides/wallet-as-a-service/connection-kits/web3modal",
+            "guides/wallet-as-a-service/connection-kits/web3-onboard",
+            "guides/wallet-as-a-service/connection-kits/solana"
+          ]
+        },
+        {
+          "group": "Building with Particle's Partners",
+          "pages": [
+            "guides/integrations/partners/zetachain",
+            "guides/integrations/partners/alchemy",
+            "guides/integrations/partners/openfort",
+            "guides/integrations/partners/biconomy",
+            "guides/integrations/partners/bob"
+          ]
+        }
+      ]
+    },
+    {
+      "group": "ACCOUNT ABSTRACTION",
+      "pages": [
+        {
+          "group": "Quickstarts",
+          "pages": [
+            "guides/aa/web-aa",
+            "guides/aa/mobile-aa",
+            "guides/aa/bundler",
+            "guides/aa/paymaster"
+          ]
+        },
+        {
+          "group": "Product Overviews",
+          "pages": [
+            "guides/integrations/aa/bundler",
+            "guides/integrations/aa/paymaster",
+            "guides/integrations/aa/keys"
+          ]
+        }
+      ]
+    },
+    {
+      "group": "CONFIGURATION",
+      "pages": [
+        {
+          "group": "Appearance",
+          "pages": [
+            "guides/configuration/appearance/auth",
+            "guides/configuration/appearance/wallet"
+          ]
+        },
+        {
+          "group": "Authentication",
+          "pages": [
+            "guides/configuration/auth/jwt",
+            "guides/configuration/auth/social-prompt",
+            "guides/configuration/auth/session-duration",
+            "guides/configuration/auth/password"
+          ]
+        }
+      ]
+    },
+    {
+      "group": "APIs & SDKs",
+      "pages": ["api-reference/introduction"]
+    },
+    {
+      "group": "PARTICLE CONNECT",
+      "pages": [
+        "api-reference/connect/introduction",
+        {
+          "group": "SDKs (Desktop)",
+          "pages": ["api-reference/connect/desktop/web"]
+        },
+        {
+          "group": "SDKs (Mobile)",
+          "pages": [
+            "api-reference/connect/mobile/android",
+            "api-reference/connect/mobile/ios",
+            "api-reference/connect/mobile/unity",
+            "api-reference/connect/mobile/flutter",
+            "api-reference/connect/mobile/react"
+          ]
+        }
+      ]
+    },
+    {
+      "group": "PARTICLE AUTH",
+      "pages": [
+        "api-reference/auth/introduction",
+        {
+          "group": "Server API",
+          "pages": [
+            "api-reference/auth/server/getuserinfo",
+            "api-reference/auth/server/getuserinfobyidentity",
+            "api-reference/auth/server/isprojectuser"
+          ]
+        },
+        {
+          "group": "SDKs (Desktop)",
+          "pages": [
+            "api-reference/auth/desktop-sdks/web",
+            "api-reference/auth/desktop-sdks/unity"
+          ]
+        },
+        {
+          "group": "SDKs (Mobile)",
+          "pages": [
+            "api-reference/auth/mobile-sdks/android",
+            "api-reference/auth/mobile-sdks/ios",
+            "api-reference/auth/mobile-sdks/flutter",
+            "api-reference/auth/mobile-sdks/unity",
+            "api-reference/auth/mobile-sdks/react",
+            "api-reference/auth/mobile-sdks/cocos"
+          ]
+        },
+        {
+          "group": "SDKs (Multi-platform)",
+          "pages": ["api-reference/auth/multi/unreal"]
+        }
+      ]
+    },
+    {
+      "group": "PARTICLE WALLET",
+      "pages": [
+        "api-reference/wallet/introduction",
+        {
+          "group": "SDKs (Desktop)",
+          "pages": ["api-reference/wallet/desktop/web"]
+        },
+        {
+          "group": "SDKs (Mobile)",
+          "pages": [
+            "api-reference/wallet/mobile/android",
+            "api-reference/wallet/mobile/ios",
+            "api-reference/wallet/mobile/unity",
+            "api-reference/wallet/mobile/flutter",
+            "api-reference/wallet/mobile/react"
+          ]
+        }
+      ]
+    },
+    {
+      "group": "ACCOUNT ABSTRACTION",
+      "pages": [
+        "api-reference/aa/introduction",
+        {
+          "group": "SDKs (Desktop)",
+          "pages": ["api-reference/aa/sdks/desktop/web"]
+        },
+        {
+          "group": "SDKs (Mobile)",
+          "pages": [
+            "api-reference/aa/sdks/mobile/android",
+            "api-reference/aa/sdks/mobile/ios",
+            "api-reference/aa/sdks/mobile/flutter",
+            "api-reference/aa/sdks/mobile/unity",
+            "api-reference/aa/sdks/mobile/react"
+          ]
+        },
+        {
+          "group": "Account Abstraction RPC",
+          "pages": [
+            "api-reference/aa/rpc/getsmartaccount",
+            "api-reference/aa/rpc/createuserop",
+            "api-reference/aa/rpc/senduserop",
+            "api-reference/aa/rpc/getfeequotes",
+            "api-reference/aa/rpc/validatesession",
+            "api-reference/aa/rpc/createsessions"
+          ]
+        },
+        {
+          "group": "Bundler RPC",
+          "pages": [
+            "api-reference/aa/bundler/getuseroperationreceipt",
+            "api-reference/aa/bundler/getuseroperationbyhash",
+            "api-reference/aa/bundler/senduseroperation",
+            "api-reference/aa/bundler/estimateuseroperationgas",
+            "api-reference/aa/bundler/supportedentrypoints"
+          ]
+        },
+        {
+          "group": "Paymaster RPC",
+          "pages": [
+            "api-reference/aa/paymaster/paymasterbalance",
+            "api-reference/aa/paymaster/sponsoruseroperation"
+          ]
+        }
+      ]
+    },
+    {
+      "group": "BTC CONNECT",
+      "pages": [
+        "api-reference/btc/introduction",
+        {
+          "group": "SDKs (Desktop)",
+          "pages": ["api-reference/btc/desktop/web"]
+        },
+        {
+          "group": "BTC Connect RPC",
+          "pages": [
+            "api-reference/btc/rpc/getbtcaccount",
+            "api-reference/btc/rpc/getbtcaccountsbyaddress"
+          ]
+        }
+      ]
+    },
+    {
+      "group": "EHNANCED",
+      "pages": [
+        "api-reference/enhanced/introduction",
+        {
+          "group": "EVM Enhanced RPC",
+          "pages": [
+            "api-reference/enhanced/evm/abi_encodefunctioncall",
+            "api-reference/enhanced/evm/crosschain_getnfts",
+            "api-reference/enhanced/evm/deserializetransaction",
+            "api-reference/enhanced/evm/getcontractabi",
+            "api-reference/enhanced/evm/getlatestblock",
+            "api-reference/enhanced/evm/getnfts",
+            "api-reference/enhanced/evm/getpendingtransactionsbyaddress",
+            "api-reference/enhanced/evm/getprice",
+            "api-reference/enhanced/evm/gettokens",
+            "api-reference/enhanced/evm/gettokensandnfts",
+            "api-reference/enhanced/evm/gettransactionsbyaddress",
+            "api-reference/enhanced/evm/suggestedgasfees"
+          ]
+        },
+        {
+          "group": "Solana Enhanced RPC",
+          "pages": [
+            "api-reference/enhanced/solana/enhancedgetprice",
+            "api-reference/enhanced/solana/enhancedgettokensandnfts",
+            "api-reference/enhanced/solana/enhancedgettransactionsbyaddress",
+            "api-reference/enhanced/solana/solanaservice"
+          ]
+        },
+        {
+          "group": "Swap RPC",
+          "pages": [
+            "api-reference/enhanced/swap/introduction",
+            "api-reference/enhanced/swap/checkapprove",
+            "api-reference/enhanced/swap/getquote",
+            "api-reference/enhanced/swap/getswap"
+          ]
+        }
+      ]
+    },
+    {
+      "group": "DEBUGGING",
+      "pages": ["api-reference/debug/sdk", "api-reference/debug/api"]
+    },
+    {
+      "group": "CHANGELOG",
+      "pages": ["changelog/logs"]
+    }
+  ],
+  "footerSocials": {
+    "x": "https://twitter.com/ParticleNtwrk",
+    "github": "https://github.com/Particle-Network",
+    "discord": "https://discord.com/invite/2y44qr6CR2"
+  },
+  "redirects": [
+    {
+      "source": "/docs/what-is-particle-network",
+      "destination": "/landing/what-is-particle-network"
+    },
+    {
+      "source": "/docs/particle-vision-and-ecosystem",
+      "destination": "/landing/realized-vision"
+    },
+    {
+      "source": "/docs/particle-chain",
+      "destination": "/landing/modular-l1/introduction"
+    },
+    {
+      "source": "/docs/universal-accounts",
+      "destination": "/landing/modular-l1/universal-accounts"
+    },
+    {
+      "source": "/docs/universal-liquidity",
+      "destination": "/landing/modular-l1/universal-liquidity"
+    },
+    {
+      "source": "/docs/universal-gas",
+      "destination": "/landing/modular-l1/universal-gas"
+    },
+    {
+      "source": "/docs/btc-connect",
+      "destination": "/landing/wallet-abstraction/btc-connect"
+    },
+    {
+      "source": "/docs/security-mpc-tss",
+      "destination": "/landing/wallet-abstraction/waas/mpc-tss"
+    },
+    {
+      "source": "/docs/modular-smart-waas",
+      "destination": "/landing/wallet-abstraction/waas/overview"
+    },
+    {
+      "source": "/docs/particle-bundler",
+      "destination": "/landing/wallet-abstraction/waas/bundler"
+    },
+    {
+      "source": "/docs/omnichain-paymaster",
+      "destination": "/landing/wallet-abstraction/waas/omni-paymaster"
+    },
+    {
+      "source": "/docs/particle-vs-alternatives",
+      "destination": "/landing/wallet-abstraction/waas/differentiators"
+    },
+    {
+      "source": "/docs/security-audits",
+      "destination": "/landing/more/audits"
+    },
+    {
+      "source": "/docs/brand-assets",
+      "destination": "/landing/more/assets"
+    },
+    {
+      "source": "/docs/network-coverage",
+      "destination": "/guides/network-coverage"
+    },
+    {
+      "source": "/docs/dashboard",
+      "destination": "/guides/dashboard"
+    },
+    {
+      "source": "/docs/solana-wallet-adapter",
+      "destination": "/guides/wallet-as-a-service/connection-kits/solana"
+    },
+    {
+      "source": "/docs/rainbowkit",
+      "destination": "/guides/wallet-as-a-service/connection-kits/rainbow"
+    },
+    {
+      "source": "/docs/particle-connect",
+      "destination": "/guides/wallet-as-a-service/connection-kits/particle-connect"
+    },
+    {
+      "source": "/docs/web3modal",
+      "destination": "/guides/wallet-as-a-service/connection-kits/web3modal"
+    },
+    {
+      "source": "/docs/web3-onboard",
+      "destination": "/guides/wallet-as-a-service/connection-kits/web3-onboard"
+    },
+    {
+      "source": "/docs/understanding-wallet-as-a-service",
+      "destination": "/guides/wallet-as-a-service/waas/understanding-waas"
+    },
+    {
+      "source": "/docs/components-of-particle-wallet-as-a-service",
+      "destination": "/guides/wallet-as-a-service/waas/components"
+    },
+    {
+      "source": "/docs/web-desktop-quickstart",
+      "destination": "/guides/wallet-as-a-service/waas/web-quickstart"
+    },
+    {
+      "source": "/docs/mobile-androidios-quickstart",
+      "destination": "/guides/wallet-as-a-service/waas/mobile-quickstart"
+    },
+    {
+      "source": "/docs/particle-auth-customization",
+      "destination": "/guides/configuration/appearance/auth"
+    },
+    {
+      "source": "/docs/particle-wallet-customization",
+      "destination": "/guides/configuration/appearance/wallet"
+    },
+    {
+      "source": "/docs/aa-web-quickstart",
+      "destination": "/guides/aa/web-aa"
+    },
+    {
+      "source": "/docs/aa-mobile-quickstart",
+      "destination": "/guides/aa/mobile-aa"
+    },
+    {
+      "source": "/docs/bundler",
+      "destination": "/guides/aa/bundler"
+    },
+    {
+      "source": "/docs/paymaster",
+      "destination": "/guides/aa/paymaster"
+    },
+    {
+      "source": "/docs/building-with-particle-auth",
+      "destination": "/guides/integrations/waas/auth"
+    },
+    {
+      "source": "/docs/building-with-particle-wallet",
+      "destination": "/guides/integrations/waas/wallet"
+    },
+    {
+      "source": "/docs/building-with-particle-connect",
+      "destination": "/guides/integrations/waas/connect"
+    },
+    {
+      "source": "/docs/choosing-a-bundler",
+      "destination": "/guides/integrations/aa/bundler"
+    },
+    {
+      "source": "/docs/setting-up-particles-paymaster",
+      "destination": "/guides/integrations/aa/paymaster"
+    },
+    {
+      "source": "/docs/session-keys",
+      "destination": "/guides/integrations/aa/keys"
+    },
+    {
+      "source": "/docs/rpc-nodes",
+      "destination": "/guides/integrations/nodes/s"
+    },
+    {
+      "source": "/docs/data-apis",
+      "destination": "/guides/integrations/nodes/data"
+    },
+    {
+      "source": "/reference/introduction-to-api-sdk-reference",
+      "destination": "/api-reference/introduction"
+    },
+    {
+      "source": "/reference/introduction-to-particle-auth",
+      "destination": "/api-reference/auth/introduction"
+    },
+    {
+      "source": "/reference/getuserinfo",
+      "destination": "/api-reference/auth/server/getuserinfo"
+    },
+    {
+      "source": "/reference/auth-web",
+      "destination": "/api-reference/auth/desktop-sdks/web"
+    },
+    {
+      "source": "/reference/auth-android",
+      "destination": "/api-reference/auth/mobile-sdks/android"
+    },
+    {
+      "source": "/reference/auth-unreal-engine",
+      "destination": "/api-reference/auth/multi/unreal"
+    },
+    {
+      "source": "/reference/introduction-to-particle-connect",
+      "destination": "/api-reference/connect/introduction"
+    },
+    {
+      "source": "/reference/connect-web",
+      "destination": "/api-reference/connect/desktop/web"
+    },
+    {
+      "source": "/reference/connect-android",
+      "destination": "/api-reference/connect/mobile/android"
+    },
+    {
+      "source": "/reference/introduction-to-particle-wallet",
+      "destination": "/api-reference/wallet/introduction"
+    },
+    {
+      "source": "/reference/introduction-to-btc-connect",
+      "destination": "/api-reference/btc/introduction"
+    },
+    {
+      "source": "/reference/introduction-to-web3-services",
+      "destination": "/api-reference/web3/introduction"
+    },
+    {
+      "source": "/reference/getlatestblock",
+      "destination": "/api-reference/web3/data/getlatestblock"
+    },
+    {
+      "source": "/reference/checkapprove",
+      "destination": "/api-reference/web3/swap/checkapprove"
+    },
+    {
+      "source": "/reference/enhancedgetprice",
+      "destination": "/api-reference/web3/solana/enhancedgetprice"
+    },
+    {
+      "source": "/reference/introduction-to-smart-waas",
+      "destination": "/api-reference/aa/introduction"
+    },
+    {
+      "source": "/reference/common-sdk-errors",
+      "destination": "/api-reference/debug/sdk"
+    },
+    {
+      "source": "/reference/common-api-errors",
+      "destination": "/api-reference/debug/api"
+    },
+    {
+      "source": "/reference/getsmartaccount",
+      "destination": "/api-reference/aa/rpc/getsmartaccount"
+    },
+    {
+      "source": "/reference/getuseroperationreceipt",
+      "destination": "/api-reference/aa/bundler/getuseroperationreceipt"
+    },
+    {
+      "source": "/reference/pm_paymasterbalance",
+      "destination": "/api-reference/aa/paymaster/paymasterbalance"
+    },
+    {
+      "source": "/reference/aa-web",
+      "destination": "/api-reference/aa/sdks/desktop/web"
+    },
+    {
+      "source": "/reference/aa-android",
+      "destination": "/api-reference/aa/sdks/mobile/android"
+    },
+    {
+      "source": "/changelog",
+      "destination": "/changelog/logs"
+    },
+    {
+      "source": "/docs/custom-authentication-jwt",
+      "destination": "/guides/configuration/auth/jwt"
+    }
+  ]
+}
